@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Nav from './components/navbar/nav';
+import Typing from './components/Typing';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <Typing
+        text = {[
+          "Software Developer",
+          "Web Developer",
+          "Mobile Developer",
+          "Game Developer",
+        ]}
+        typingSpeed = {100}
+        deletingSpeed = {50}
+      />
     </div>
   );
 }
