@@ -1,0 +1,1 @@
+export {default} from './Banner';  //import and export in one line

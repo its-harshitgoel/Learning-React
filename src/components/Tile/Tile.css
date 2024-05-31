@@ -14,7 +14,7 @@
   
   /* Background color classes */
   .red {
-    background-color: red;
+    background-color: rgb(255, 89, 89);
     color: white; /* Ensure text is readable on red background */
   }
   

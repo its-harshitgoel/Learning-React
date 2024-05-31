@@ -1,0 +1,1 @@
+export { default } from './nav';  //import and export in one line

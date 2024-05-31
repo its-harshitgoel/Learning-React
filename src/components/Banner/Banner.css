@@ -1,0 +1,9 @@
+.banner{
+    width: 100vw;
+    height: 60vh;
+    }
+    .banner img{
+    width: 100vw;
+    height: 50vh;
+    background-size: fit;
+    }

@@ -1,0 +1,1 @@
+export {default} from './Tile';  //import and export in one line
