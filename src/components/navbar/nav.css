@@ -12,7 +12,6 @@
     color: white;
     text-decoration: none;
     padding: 5px 0;
-    
 }
 
 .navbar ul {
@@ -36,4 +35,14 @@
 .nav-item a:hover::after {
     width: 100%;
     transition: width 0.3s ease;
+}
+
+.text{
+    text-decoration: solid;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+
 }

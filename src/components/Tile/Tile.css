@@ -1,0 +1,56 @@
+/* General tile container styles */
+.tile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    
+}
+  
+  /* Flex direction row-reverse for image on the right */
+  .tile.img-right {
+    flex-direction: row-reverse;
+  }
+  
+  /* Background color classes */
+  .red {
+    background-color: red;
+    color: white; /* Ensure text is readable on red background */
+  }
+  
+  /* Image container styles */
+  .img-parent {
+    width: 50%; /* Adjust the width as necessary */
+  }
+  
+  
+  .img-parent img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Text container styles */
+  .text-parent {
+    width: 50%; /* Adjust the width as necessary */
+    padding: 20px;
+    text-align: left;
+  }
+  
+  
+  .text {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .link-parent {
+    margin-top: 10px;
+  }
+  
+  .link {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
